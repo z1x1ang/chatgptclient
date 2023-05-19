@@ -1,7 +1,7 @@
 export const fetchResponse=async(chat)=>{
     try{
 
-        const response = await fetch('https://tchatgpt.buzz/',{
+        const response = await fetch('删除此处，加上vercel分配的server地址（或自己代理后的域名）',{
             method:"POST",
 
             headers:{
